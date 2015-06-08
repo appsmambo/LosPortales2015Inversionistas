@@ -236,9 +236,15 @@ td {
 th, td {
 	font-size:16px
 }
-.memoria-anual {
+.link-descarga {
 	font-family:'dobra-medium';
 	font-size:16px;
+	letter-spacing:1px
+}
+.ver-mas {
+	color:#0063a6;
+	font-family:'dobra-medium';
+	font-size:12px;
 	letter-spacing:1px
 }
 
