@@ -1,0 +1,282 @@
+@font-face {
+	font-family:'dobra-bold';
+	src:url('dobra-bold-webfont.eot');
+	src:url('../font/dobra-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/dobra-bold-webfont.woff2') format('woff2'),
+		url('../font/dobra-bold-webfont.woff') format('woff'),
+		url('../font/dobra-bold-webfont.ttf') format('truetype'),
+		url('../font/dobra-bold-webfont.svg#dobrabold') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+@font-face {
+	font-family:'dobra-light';
+	src:url('../font/dobra-light-webfont.eot');
+	src:url('../font/dobra-light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/dobra-light-webfont.woff2') format('woff2'),
+		url('../font/dobra-light-webfont.woff') format('woff'),
+		url('../font/dobra-light-webfont.ttf') format('truetype'),
+		url('../font/dobra-light-webfont.svg#dobra_lightlight') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+@font-face {
+	font-family:'dobra-book';
+	src:url('../font/dobra-book-webfont.eot');
+	src:url('../font/dobra-book-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/dobra-book-webfont.woff2') format('woff2'),
+		url('../font/dobra-book-webfont.woff') format('woff'),
+		url('../font/dobra-book-webfont.ttf') format('truetype'),
+		url('../font/dobra-book-webfont.svg#dobra_bookbook') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+@font-face {
+	font-family:'dobra-medium';
+	src:url('../font/dobra-medium-webfont.eot');
+	src:url('../font/dobra-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/dobra-medium-webfont.woff2') format('woff2'),
+		url('../font/dobra-medium-webfont.woff') format('woff'),
+		url('../font/dobra-medium-webfont.ttf') format('truetype'),
+		url('../font/dobra-medium-webfont.svg#dobramedium') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+
+body {
+	background-color:#fff;
+	background-image:url('../img/fondo.jpg');
+	background-repeat:repeat-x
+}
+a {
+	color:#76777b
+}
+a,
+a:hover,
+a:focus {
+	color:inherit;
+	text-decoration:none
+}
+strong {
+	font-family:'dobra-bold'
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#000;
+	text-transform:uppercase
+}
+h3 {
+	font-family:'dobra-medium'
+}
+h5 span {
+	color:#757575
+}
+h6 {
+	font-family:'dobra-medium'
+}
+hr {
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	border-top:1px solid #d2d2d1;
+	width:100%
+}
+#top {
+	max-height:40px
+}
+.lineas-de-negocio {
+	font-family:'dobra-medium';
+	font-size:11px;
+	color:#000;
+	line-height:40px
+}
+.icono {
+	display:inline-block;
+	line-height:6px;
+	font-size:9px;
+	color:#000;
+	margin-left:10px;
+	margin-top:5px
+}
+header {
+	
+}
+footer {
+	overflow:hidden;
+	background-color:#0063a6;
+	color:#fff;
+	padding:18px 0
+}
+footer a {
+	color:#fff
+}
+.idiomas {
+	font-family:'dobra-bold';
+	color:#000;
+	margin-bottom:0;
+	line-height:29px;
+	letter-spacing:1.5px
+}
+.idiomas a {
+	color:#1f699b;
+	font-size:11px
+}
+.idiomas a.active {
+	color:#000
+}
+.container-menu {
+	clear:both;
+	float:left;
+	overflow:hidden;
+	width:100%
+}
+.menu {
+	float:left;
+	left:50%;
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	position:relative
+}
+.menu li {
+	float:left;
+	position:relative;
+	right:50%;
+	margin:24px 20px 10px
+}
+.menu li.active a {
+	color:#ec7404
+}
+footer .menu li {
+	margin-top:0!important
+}
+footer h3 {
+	color:#fff
+}
+footer hr {
+	border-top-color:#fff
+}
+.menu li a {
+	color:#000
+}
+footer .menu li a {
+	color:#fff
+}
+.gobierno {
+	display:block;
+	color:#0063a6;
+	font-family:'dobra-medium';
+	text-align:center;
+	margin-bottom:30px
+}
+.reporte {
+	color:#fff;
+	height:100%;
+	width:100%;
+	max-width:300px;
+	padding:50px
+}
+.reporte.naranja {
+	background-color:#ec7404
+}
+.reporte.gris {
+	background-color:#c2c2c2
+}
+.breadcrumb a {
+	color:#757575
+}
+.breadcrumb li:first-child a {
+	color:#000
+}
+.sidebar {
+	padding:0
+}
+.sidebar ul {
+	border-bottom:1px solid #cbcbcb;
+	padding:0 0 0 22px
+}
+.sidebar li {
+	background-color:#e5e5e5;
+	list-style:none
+}
+.sidebar li.abierto,
+.sidebar li.abierto li {
+	background-color:#fff
+}
+.sidebar li:last-child a {
+	border-bottom:none
+}
+.sidebar li a {
+	font-size:16px;
+	color:#000;
+	line-height:16px;
+	padding:26px 16px;
+	border-bottom:1px solid #cbcbcb;
+	display:block
+}
+.sidebar li.active {
+	background-color:#fff
+}
+.sidebar li.active a {
+	font-family:'dobra-medium';
+	color:#ec7404
+}
+th {
+	background-color:#0063a6;
+	color:#fff;
+	line-height:40px;
+	font-family:'dobra-medium';
+	font-weight:inherit;
+	text-align:center
+}
+td {
+	padding-top:20px!important;
+	padding-bottom:20px!important;
+	line-height:25px
+}
+th, td {
+	font-size:16px
+}
+.memoria-anual {
+	font-family:'dobra-medium';
+	font-size:16px;
+	letter-spacing:1px
+}
+
+
+
+@media (max-width:767px) {
+	.lineas-de-negocio {
+		font-size:10px
+	}
+	.icono {
+		font-size:8px;
+		margin-left:5px
+	}
+	.icono:last-child {
+		margin-left:0
+	}
+}
+@media (min-width:768px) {
+	.menu li {
+		margin-left:5px;
+		margin-right:5px
+	}
+	.menu li a {
+		font-size:11px
+	}
+}
+@media (min-width:992px) {
+	.menu li {
+		margin-left:11px;
+		margin-right:11px
+	}
+	.menu li a {
+		font-size:14px
+	}
+}
+@media (min-width:1200px) {
+	.menu li {
+		margin-left:20px;
+		margin-right:20px
+	}
+}
