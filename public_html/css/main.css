@@ -300,6 +300,9 @@ th, td {
 	text-align: left;
 	margin-top: 14px;
 }
+.content-contactenos form label{
+	font-weight: normal;
+}
 .content-contactenos form p{
 	margin-top:0;
 }
