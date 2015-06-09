@@ -216,9 +216,10 @@ footer .menu li a {
 .sidebar li.active {
 	background-color:#fff
 }
-.sidebar li.active a {
+.sidebar li.active a,
+a.active {
 	font-family:'dobra-medium';
-	color:#ec7404
+	color:#ec7404!important
 }
 th {
 	background-color:#0063a6;
@@ -245,6 +246,12 @@ th, td {
 	color:#0063a6;
 	font-family:'dobra-medium';
 	font-size:12px;
+	letter-spacing:1px
+}
+.subtitulo {
+	color:#0063a6;
+	font-family:'dobra-medium';
+	font-size:18px;
 	letter-spacing:1px
 }
 
