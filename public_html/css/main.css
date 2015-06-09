@@ -377,3 +377,18 @@ th, td {
 	background-position: right;
 	padding-right: 27px;
 }
+.flecha-prensa{
+	margin-left: 12px;
+}
+.flecha-prensa.dos{
+	margin-top:10px;
+}
+h4 span.prensa{
+	font-size: 14px;
+	color: #76777b;
+	font-family:'dobra-book';
+	text-transform: none !important;
+	display: block;
+	text-align: center;
+	margin-top:12px;
+}
