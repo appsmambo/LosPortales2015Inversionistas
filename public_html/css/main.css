@@ -202,7 +202,8 @@ footer .menu li a {
 .sidebar li.abierto li {
 	background-color:#fff
 }
-.sidebar li:last-child a {
+.sidebar li:last-child ul,
+.submenu li:last-child a {
 	border-bottom:none
 }
 .sidebar li a {
