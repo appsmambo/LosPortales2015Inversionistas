@@ -270,6 +270,9 @@ th, td {
 	.container-menu {
 		display:none
 	}
+	.col-inputs{
+		width: 100%;
+	}
 }
 @media (min-width:768px) {
 	.menu li {
@@ -324,6 +327,7 @@ th, td {
 	border: 0;
 	width: 100%;
 	height: 22px;
+	padding: 0 7px;
 }
 .content-contactenos form textarea{
 	border: 0;
@@ -394,4 +398,15 @@ h4 span.prensa{
 	display: block;
 	text-align: center;
 	margin-top:12px;
+}
+@media (max-width:991px) {
+	.content-contactenos form{
+		font-size: 10px;
+	}
+}
+@media (max-width:500px) {
+	.col-inputs2{
+		width: 100%;
+		padding:0 15px;
+	}
 }
